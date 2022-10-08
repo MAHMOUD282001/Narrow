@@ -1,0 +1,235 @@
+.bg-light {
+    background-color: #fff!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #a67ecf;
+    font-size: 25px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #a67ecf
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #a67ecf
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 18px;
+}
+
+.d-block{
+height: 900px;
+}
+
+section.about{
+width: 100%;
+height: auto;
+padding: 50px 0;
+}
+
+section.about div.narrow h1, section.product div.narrow h1{
+font-size: 2rem;
+color: #a67ecf;
+font-weight: bold;
+margin-bottom: 2%;
+}
+
+section.about div.narrow p, section.product div.narrow p{
+color: #888;
+line-height: 1.8;
+margin-bottom: 5%;
+}
+
+section.about img{
+width: 100%;
+margin-bottom: 2%;
+}
+
+.cont{
+display: flex;
+margin-bottom: 50px;
+overflow: hidden;
+margin-left: 50px;
+}
+
+.cont img{
+width: 320px;
+height: 180px;
+}
+
+.chil{
+margin-left: 70px;
+}
+
+section.about .row div.img{
+background-image: url("../Images/6.jpg");
+height: 655px;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+section.about .row div.img p{
+position: absolute;
+bottom: 0;
+color: #ddd;
+margin: 0;
+background: rgba(0,0,0,.5);
+padding: 20px;
+font-size: 20px;
+}
+
+section.service{
+margin-top: 5%;
+width: 100%;
+height: 400px;
+background: url("../Images/1.jpg");
+background-attachment: fixed;
+text-align: center;
+display: flex;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+section.service p{
+color: #fff;
+font-size: 20px;
+border: 2px solid #fff;
+font-weight: bold;
+padding: 25px;
+display: inline-block; 
+justify-content: center;
+align-items: center;
+
+}
+
+section.product{
+width: 100%;
+height: auto;
+padding: 50px 0;
+}
+
+section.product img{
+width: 100%;
+height: 250px;
+    }
+
+
+section.choose{
+width: 100%;
+height: auto;
+margin: 70px 0;
+background: #ddd;
+padding: 50px 0;
+}
+
+section.choose h2{
+
+color: #a67ecf;
+
+}
+
+
+section.choose i, section.choose div.part{
+   float: left;
+}
+
+section.choose div.part p{
+
+    margin-right: 75px;
+
+}
+section.choose i{
+    margin-top: 0px;
+    margin-left: -70px;
+    width: 50px;
+}
+
+
+footer{
+width: 100%;
+height: auto;
+padding: 20px 0;
+}
+
+footer p{
+font-size: 18px;
+color: #888;
+}
+
+footer i{
+margin: 50px;
+color: #fff;
+color: #888;
+cursor: pointer;
+}
+
+
+
+@media (max-width: 551px){
+
+        .col {
+            flex: 0 0 100%;
+            margin-bottom: 20px;
+        }
+    }
+    
+    
+    @media (min-width: 552px){
+    
+        .col {
+            flex: 0 0 50%;
+            margin-bottom: 20px;
+        }
+}
+
+@media (max-width: 768px){
+    .cont {
+    display: block;
+     text-align: center; 
+     margin-left: 0;
+    }
+    
+    .chil{
+        margin-left: 0px;
+
+    }
+    
+    .cont img{
+        text-align: center;
+        }
+        
+    .chil p, .chil span{
+      text-align: center;
+    }
+}
+
+
+
+@media (max-width: 991px){
+
+    section.about .row div.img{
+    margin-bottom: 70px;
+    }
+    
+    .cont img{
+        width: 350px !important;
+        height: 200px;
+        }
+}
+
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem;
+        padding-left: .5rem;
+    }
+    .col {
+        flex: 0 0 33.33%;
+        margin-bottom: 20px;
+    }
+}
